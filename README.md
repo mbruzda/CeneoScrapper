@@ -13,3 +13,5 @@
 - treść     : p.product-review-body
 - wady      : div.pros-cell > ul
 - zalety    : div.cons-cell > ul
+
+04.03.2020
