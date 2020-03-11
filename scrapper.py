@@ -29,7 +29,7 @@ content = opinion.select("p.product-review-body").pop().get_text()
 
 
 
-
+#mb
 
 # - opinia    : li.review-box
 # - identyfikator : li.review-box[data-entry-id]
