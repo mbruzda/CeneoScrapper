@@ -15,3 +15,9 @@
 - zalety    : div.cons-cell > ul
 
 04.03.2020
+
+## Etap 2 - pobiarnie wszystkich opinii z pojedynczej strony
+- zapis składowych opinii do złożonej struktury danych
+## Etap 3 - Pobranie wszystkich opinii o pojedynczym produkcie
+- sposób przechodzenia po poszczegolnych stronach z opiniami 
+## Etap 4 - Eksport opinii do pliku .csv 

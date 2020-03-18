@@ -1,46 +1,61 @@
-#import bibliotek
+# import libs
 import requests
 from bs4 import BeautifulSoup
-#adres URL strony z opiniami
-url = 'https://www.ceneo.pl/76891706#tab=reviews'
-
-#pobieranie kodu strony HTML z URL
-
+# adres strony z opiniami 
+url = "https://www.ceneo.pl/76367847#tab=reviews"
+# pobierz kod strony html
 page_response = requests.get(url)
-page_tree = BeautifulSoup(page_response.text, 'html.parser')
+page_tree = BeautifulSoup(page_response.text, "html.parser")
+# pobranie z kodu strony fragmetów poszczególnych opinii 
+opinions = page_tree.select('li.review-box')
 
-#wybieranie z kodu strony fragmentow odpowiadajacych poszczegolnym opiniom
+#składowe opinii
+for opinion in opinions:
+    opinion = opinions[0]
+    opinion_id = opinion["data-entry-id"]
+    author = opinion.select('div.reviewer-name-line').pop().string
+    try:
+        recommendation = opinion.select('div.product-review-summary > em').pop().string
+    except IndexError:
+        recommendation = None
+    
+    stars = opinion.select('span.review-score-count').pop().string
+    try:
+        purchased = opinion.select('div.product-review-pz').pop().string
+    except IndexError:
+        purchased = None
+    useful = opinion.select('button.vote-yes').pop()["data-total-vote"]
+    useless = opinion.select('button.vote-no').pop()["data-total-vote"]
+    content = opinion.select("p.product-review-body").pop().get_text()
+    date = opinion.select("span.review-time > time")
+    review_date = date.pop(0)["datetime"]
 
-opinions = page_tree.select("li.review-box")
+    try:
+        purchased = opinion.select('div.product-review-pz').pop().string
+    except IndexError:
+        purchased = None
+    try:
+        recommendation = opinion.select('div.product-review-summary > em').pop().string
+    except IndexError:
+        recommendation = None
 
+    try:
+        cons = opinion.select("div.cons-cell > ul").pop().get_text()
+    except IndexError:
+        cons = None
 
+    try:
+        pros = opinion.select("div.pros-cell > ul").pop().get_text()
+    except IndexError:
+        pros = None
 
-#ekstrakcja skladowych  dla pierwszej opinii z listy 
-opinion = opinions[0]
-opinion_id = opinion["data-entry-id"].pop().string
-author = opinion.select('div.reviewer-name-line')
-recomendation = opinion.select('div.product-review-summary > em').pop().string
-stars = opinion.select('span.review-score-count').pop().string
-purchased = opinion.select("div.product-review-pz").pop().string
-useful =  opinion.select("button.vote-yes").pop()["data-total-vote"]
-useless = opinion.select("button.vote-no").pop()["data-total-vote"]
-content = opinion.select("p.product-review-body").pop().get_text()
+    try:
+        purchase_date = date.pop(0)["datetime"]
+    except IndexError:
+        purchase_date = None 
 
+    print(opinion_id, author, recommendation, stars, content, pros,
+      cons, useful, purchased, purchase_date, review_date)
 
-
-
-#mb
-
-# - opinia    : li.review-box
-# - identyfikator : li.review-box[data-entry-id]
-# - autor     : div.reviewer-name-line
-# - rekomendacja      : div.product-review-summary > em
-# - liczba gwiazdek       :  span.review-score-count
-# - czy potwierdzona zakupem  :  div.product-review-pz
-# - data wystawienia      : span.review-time > time  (pierwsze wystapienie)
-# - data zakupu       :  span.review-time > time  (drugie wystapienie)
-# - przydatna     : button.votes-yes[data-total-vote]
-# - nieprzydatna      : button.votes-no[data-total-vote]
-# - treść     : p.product-review-body
-# - wady      : div.pros-cell > ul
-# - zalety    : div.cons-cell > ul
+# - data wystawienia span .review-time > time ["datetime"] - pierwsze wyst
+# - data zakupu .review-time > time ["datetime"] - drugie wystąpienie
