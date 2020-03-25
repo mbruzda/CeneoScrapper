@@ -75,8 +75,8 @@ while url is not None:
 
     print("url:",url)
 
-with open(product_id+".json", 'w') as fp:
-    json.dump(opinions_list, fp, ensure_ascii=False)
+with open(product_id+".json", 'w', encoding='utf-8') as fp:
+    json.dump(opinions_list, fp, ensure_ascii=False, indent=4, )
 
 
 # print(len(opinions_list))
