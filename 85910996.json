@@ -9,7 +9,7 @@
         "cons": null,
         "useful": "0",
         "useless": "1",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-01-06 15:25:36",
         "review_date": "2020-01-23 13:15:09"
     },
@@ -23,9 +23,9 @@
         "cons": null,
         "useful": "14",
         "useless": "3",
-        "purchased": null,
-        "purchase_date": "2019-09-23 20:32:50",
-        "review_date": "2019-05-02 12:14:56"
+        "purchased": false,
+        "purchase_date": null,
+        "review_date": "2020-01-02 17:03:11"
     },
     {
         "opinion_id": "10755668",
@@ -37,7 +37,7 @@
         "cons": null,
         "useful": "8",
         "useless": "2",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-06-27 21:20:26",
         "review_date": "2019-07-08 12:41:28"
     },
@@ -51,7 +51,7 @@
         "cons": "jakość dźwięku",
         "useful": "0",
         "useless": "11",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-03-30 17:25:34",
         "review_date": "2019-04-05 15:22:41"
     },
@@ -65,7 +65,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-01-24 10:49:31",
         "review_date": "2020-01-29 11:42:08"
     },
@@ -79,7 +79,7 @@
         "cons": null,
         "useful": "2",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-09-10 14:24:47",
         "review_date": "2019-09-12 11:06:02"
     },
@@ -93,7 +93,7 @@
         "cons": null,
         "useful": "4",
         "useless": "0",
-        "purchased": null,
+        "purchased": false,
         "purchase_date": null,
         "review_date": "2019-04-06 12:21:08"
     },
@@ -107,9 +107,9 @@
         "cons": "jakość dźwięku",
         "useful": "0",
         "useless": "10",
-        "purchased": null,
-        "purchase_date": "2019-04-15 15:05:06",
-        "review_date": "2019-03-28 00:31:38"
+        "purchased": false,
+        "purchase_date": null,
+        "review_date": "2019-04-15 15:05:06"
     },
     {
         "opinion_id": "10524813",
@@ -121,7 +121,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": false,
         "purchase_date": null,
         "review_date": "2019-05-15 10:45:44"
     },
@@ -135,7 +135,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-12-11 14:05:09",
         "review_date": "2019-12-17 16:29:30"
     },
@@ -149,7 +149,7 @@
         "cons": "trochę niewygodne na dłużej w uszach\nwygoda używania",
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": false,
         "purchase_date": null,
         "review_date": "2019-07-04 21:09:30"
     },
@@ -163,7 +163,7 @@
         "cons": "jakość dźwięku\ntrochę niewygodne na dłużej w uszach",
         "useful": "0",
         "useless": "6",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-08-17 23:06:43",
         "review_date": "2019-08-23 10:34:52"
     },
@@ -177,7 +177,7 @@
         "cons": "trochę niewygodne na dłużej w uszach",
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": false,
         "purchase_date": null,
         "review_date": "2020-01-14 16:23:47"
     },
@@ -191,7 +191,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-02-18 18:49:16",
         "review_date": "2020-02-21 11:52:19"
     },
@@ -205,7 +205,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": false,
         "purchase_date": null,
         "review_date": "2019-06-25 08:28:59"
     },
@@ -219,7 +219,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-01-19 15:46:06",
         "review_date": "2020-01-23 15:31:21"
     },
@@ -233,7 +233,7 @@
         "cons": null,
         "useful": "1",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-08-10 12:38:49",
         "review_date": "2019-08-14 11:14:45"
     },
@@ -247,7 +247,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-10-08 07:17:51",
         "review_date": "2019-11-08 06:51:33"
     },
@@ -261,7 +261,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-12-09 19:45:43",
         "review_date": "2020-01-16 09:49:46"
     },
@@ -275,7 +275,7 @@
         "cons": null,
         "useful": "1",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-11-08 15:57:40",
         "review_date": "2019-11-15 19:18:26"
     },
@@ -289,7 +289,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-07-03 13:55:39",
         "review_date": "2019-07-12 11:24:43"
     },
@@ -303,7 +303,7 @@
         "cons": "trochę niewygodne na dłużej w uszach",
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-12-11 13:55:54",
         "review_date": "2019-12-16 11:05:21"
     },
@@ -317,7 +317,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-12-29 09:04:06",
         "review_date": "2020-01-29 06:55:28"
     },
@@ -331,7 +331,7 @@
         "cons": null,
         "useful": "0",
         "useless": "1",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-02-11 09:01:59",
         "review_date": "2020-02-13 22:09:55"
     },
@@ -345,7 +345,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-12-01 19:46:47",
         "review_date": "2020-01-06 14:31:37"
     },
@@ -359,7 +359,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-11-29 16:23:26",
         "review_date": "2019-12-05 16:30:03"
     },
@@ -373,7 +373,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-12-30 12:08:38",
         "review_date": "2020-01-03 16:21:47"
     },
@@ -387,7 +387,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-11-21 20:11:09",
         "review_date": "2019-12-22 14:13:06"
     },
@@ -401,7 +401,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-02-13 08:15:53",
         "review_date": "2020-02-18 11:30:53"
     },
@@ -415,7 +415,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-01-29 20:19:26",
         "review_date": "2020-02-29 15:53:40"
     },
@@ -429,7 +429,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-01-08 15:04:30",
         "review_date": "2020-01-26 16:04:39"
     },
@@ -443,7 +443,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-01-02 15:39:59",
         "review_date": "2020-01-08 17:23:51"
     },
@@ -457,7 +457,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-10-12 12:58:25",
         "review_date": "2019-10-16 19:10:47"
     },
@@ -471,7 +471,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-02-17 12:03:48",
         "review_date": "2020-02-27 19:30:18"
     },
@@ -485,7 +485,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-12-27 14:13:05",
         "review_date": "2020-01-03 06:42:51"
     },
@@ -499,7 +499,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-12-18 11:16:57",
         "review_date": "2020-02-01 00:10:15"
     },
@@ -513,7 +513,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-12-26 21:20:23",
         "review_date": "2020-01-26 21:59:39"
     },
@@ -527,7 +527,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-03-09 17:40:26",
         "review_date": "2020-03-12 11:46:34"
     },
@@ -541,7 +541,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-08-11 22:11:03",
         "review_date": "2019-09-10 08:15:22"
     },
@@ -555,7 +555,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-02-10 20:38:20",
         "review_date": "2020-02-14 11:32:33"
     },
@@ -569,7 +569,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-11-14 10:10:59",
         "review_date": "2019-12-06 21:50:33"
     },
@@ -583,7 +583,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-01-27 15:54:15",
         "review_date": "2020-02-03 16:59:56"
     },
@@ -597,7 +597,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-01-23 13:56:07",
         "review_date": "2020-02-11 14:08:33"
     },
@@ -611,7 +611,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-03-11 14:09:43",
         "review_date": "2020-03-16 10:39:25"
     },
@@ -625,7 +625,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-12-16 15:33:46",
         "review_date": "2019-12-20 11:08:14"
     },
@@ -639,7 +639,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-09-22 12:31:00",
         "review_date": "2019-10-23 10:53:29"
     },
@@ -653,7 +653,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": false,
         "purchase_date": null,
         "review_date": "2019-08-02 14:16:33"
     },
@@ -667,7 +667,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-03-05 18:38:45",
         "review_date": "2020-03-19 07:34:34"
     },
@@ -681,7 +681,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-03-04 18:47:34",
         "review_date": "2020-03-18 14:43:45"
     },
@@ -695,7 +695,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2020-02-24 14:06:59",
         "review_date": "2020-03-05 20:06:39"
     },
@@ -709,7 +709,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": true,
         "purchase_date": "2019-12-01 10:02:44",
         "review_date": "2019-12-11 15:13:27"
     },
@@ -723,7 +723,7 @@
         "cons": null,
         "useful": "0",
         "useless": "0",
-        "purchased": null,
+        "purchased": false,
         "purchase_date": null,
         "review_date": "2019-07-16 22:41:51"
     }
