@@ -25,3 +25,28 @@
 - zapisanie pobranych danych do obiektu dataframe
 - wykonanie prostych obliczen na danych
 - wykonanie prostych wykresow
+
+## Etap 5 - interfejs webowy aplikacji (framework Flask)
+- zainstalowanie i uruchamianie Flask'a
+- struktura aplikacji
+    /CeneoScraper  
+        /run.py  
+        /config.py  
+        /app  
+            /__init__.py
+            /routes.py  
+            /models.py  
+            /scraper.py
+            /analyzer.py
+            /static/  
+                /main.css
+                /figures/
+                    /fig.png
+            /templates/  
+                /base.html  
+            /opinions
+        /requirements.txt  
+        /.venv
+        /README.md
+- routing (nawigowanie po stronach serwisu)
+- widoki (Jinja)
