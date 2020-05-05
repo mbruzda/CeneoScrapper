@@ -20,8 +20,8 @@ stars = opinions["stars"].value_counts().sort_index().reindex(list(np.arange(0,5
 fig, ax = plt.subplots()
 stars.plot.bar(color="lightskyblue")
 ax.set_title("Gwiazdki")
-ax.set_xlabel("liczba gwiazdek")
-ax.set_ylabel("liczba opinii")
+ax.set_xlabel("Liczba gwiazdek")
+ax.set_ylabel("Liczba opinii")
 plt.savefig("figures/"+product_id+"_bar.png")
 plt.close()
 
