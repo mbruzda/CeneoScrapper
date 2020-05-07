@@ -33,7 +33,7 @@
         /run.py  
         /config.py  
         /app  
-            /__init__.py
+            /\_\_init\_\_.py
             /routes.py  
             /models.py  
             /scraper.py
@@ -50,3 +50,5 @@
         /README.md
 - routing (nawigowanie po stronach serwisu)
 - widoki (Jinja)
+
+
