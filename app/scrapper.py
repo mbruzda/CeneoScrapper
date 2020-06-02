@@ -3,7 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 import pprint
 import json
-from utils import remove_whitespaces, extract_feature
 
 #adres URL strony z opiniami
 url_prefix = "https://www.ceneo.pl"

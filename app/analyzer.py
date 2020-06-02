@@ -5,12 +5,12 @@ from matplotlib import pyplot as plt
 import numpy as np
 
 #wyświetlenie zawartości katalogu opinions
-print(os.listdir("./opinions"))
+print(os.listdir("./app/opinions"))
 
 #wczytanie id produktu, którego opinie będą analizowane
 product_id = input("Podaj kod produktu: ")
 
-opinions = pd.read_json("opinions/"+product_id+".json")
+opinions = pd.read_json("app/opinions/"+product_id+".json")
 opinions = opinions.set_index("opinion_id")
 
 opinions["stars"] = opinions["stars"].map(lambda x: float(x.split("/")[0].replace(",", ".")))
@@ -20,8 +20,8 @@ stars = opinions["stars"].value_counts().sort_index().reindex(list(np.arange(0,5
 fig, ax = plt.subplots()
 stars.plot.bar(color="lightskyblue")
 ax.set_title("Gwiazdki")
-ax.set_xlabel("Liczba gwiazdek")
-ax.set_ylabel("Liczba opinii")
+ax.set_xlabel("liczba gwiazdek")
+ax.set_ylabel("liczba opinii")
 plt.savefig("figures/"+product_id+"_bar.png")
 plt.close()
 
